@@ -1,0 +1,9 @@
+[35m19:34:26.712[0;39m [31mWARN       [JavaFX Application Thread]              sc.server.Configuration[0;39m - Could not find server.properties at C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\server.properties, will use default values!
+[35m19:34:26.722[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Listening on port 13050 for incoming connections.
+[35m19:34:26.723[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - ClientManager running
+[35m19:34:26.857[0;39m [39mDEBUG      [JavaFX Application Thread]            sc.gui.AppStyle$Companion[0;39m - System Font: Font[name=System Regular, family=System, style=Regular, size=12.0]
+[35m19:34:27.499[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_CREATION
+[35m19:34:27.499[0;39m [31mWARN       [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Noop view change request!
+[35m19:34:32.666[0;39m [39mDEBUG      [JavaFX Application Thread]                sc.gui.model.AppModel[0;39m - Saving Preferences
+[35m19:34:32.668[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Shutting down NewClientListener...
+[35m19:34:32.669[0;39m [39mDEBUG      [JavaFX Application Thread]                     sc.gui.ServerApp[0;39m - App stopped, ending program

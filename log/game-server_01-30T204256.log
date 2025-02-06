@@ -1,0 +1,226 @@
+[35m20:42:57.094[0;39m [31mWARN       [JavaFX Application Thread]              sc.server.Configuration[0;39m - Could not find server.properties at C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\server.properties, will use default values!
+[35m20:42:57.103[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Listening on port 13050 for incoming connections.
+[35m20:42:57.104[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - ClientManager running
+[35m20:42:57.204[0;39m [39mDEBUG      [JavaFX Application Thread]            sc.gui.AppStyle$Companion[0;39m - System Font: Font[name=System Regular, family=System, style=Regular, size=12.0]
+[35m20:42:57.623[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_CREATION
+[35m20:42:57.623[0;39m [31mWARN       [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Noop view change request!
+[35m20:43:37.542[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m20:43:37.560[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m20:43:37.568[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54442,localport=13050]...
+[35m20:43:37.827[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@4a9a674f to ReadyQueue.
+[35m20:43:37.827[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:43:37.828[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:43:37.833[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m20:43:37.833[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54444,localport=13050]...
+[35m20:43:37.838[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@5e0b1671 to ReadyQueue.
+[35m20:43:37.838[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:43:37.838[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:43:37.840[0;39m [34mINFO  [XStream-Receive id:57 of Clien]             sc.server.network.Client[0;39m - Client authenticated as administrator
+[35m20:43:37.840[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: false, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExecClient@4c2da3d on localhost:13050 running 'C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar'), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@2daa7a4b type Mensch on localhost:13050)])
+[35m20:43:37.855[0;39m [31mWARN  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m20:43:37.867[0;39m [39mDEBUG [XStream-Receive id:56 of Lobby]  sc.gui.controller.client.ExecClient[0;39m - Starting 'java -jar C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar --host localhost --port 13050 --reservation 06c2a3b4-2acf-4782-b522-8e875879260d'
+[35m20:43:37.876[0;39m [34mINFO  [XStream-Receive id:58 of Clien]  sc.server.gaming.ReservationManager[0;39m - Reservation 42be162f-17d0-4d7b-a690-9a5c10d646f7 was redeemed.
+[35m20:43:37.878[0;39m [34mINFO  [XStream-Receive id:58 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🐇, 🧺, 🐇, 🥕, 🐇, P2, P1, 🥕, 🥕, 🥗, 🦔, 🥕, 🥕, 🐇, 🦔, 🧺, P2, P1, 🦔, 🥕, P2, 🥕, 🥗, 🦔, P2, 🥕, 🐇, 🧺, 🥕, 🦔, 🥕, 🐇, P2, 🥕, P1, 🐇, 🦔, 🥕, 🐇, 🥕, P2, 🥗, 🦔, P1, 🧺, 🐇, 🥕, P2, 🥕, 🦔, P2, 🧺, 🐇, 🥕, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:44:00.269[0;39m [39mDEBUG      [JavaFX Application Thread]                  sc.gui.view.AppView[0;39m - New Game!
+[35m20:44:00.270[0;39m [39mDEBUG      [JavaFX Application Thread]               sc.gui.model.GameModel[0;39m - Resetting GameModel
+[35m20:44:00.270[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_LOADING -> GAME_CREATION
+[35m20:44:03.791[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m20:44:03.793[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m20:44:03.794[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54461,localport=13050]...
+[35m20:44:03.800[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@770c428 to ReadyQueue.
+[35m20:44:03.800[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: true, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExecClient@4d0e04a3 on localhost:13050 running 'C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar'), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@322e3be9 type Beispiel-Computerspieler on localhost:13050)])
+[35m20:44:03.800[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:44:03.800[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:44:03.801[0;39m [34mINFO  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - Toggling PAUSE from false to true for Game(players=[], gameState=GameState(board=Board[▶, 🥕, 🐇, 🥕, 🧺, 🥕, P2, 🐇, P1, 🐇, 🥗, 🦔, 🥕, 🥕, 🐇, 🦔, P1, P2, 🧺, 🦔, 🥕, 🥕, P2, 🥗, 🦔, 🐇, P2, 🥕, 🥕, 🧺, 🦔, P1, 🥕, 🐇, 🥕, P2, 🐇, 🦔, 🐇, 🥕, P2, 🥕, 🥗, 🦔, 🥕, P2, 🐇, 🧺, 🥕, P1, 🦔, 🐇, 🥕, P2, 🧺, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:44:03.803[0;39m [39mDEBUG [XStream-Receive id:56 of Lobby]  sc.gui.controller.client.ExecClient[0;39m - Starting 'java -jar C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar --host localhost --port 13050 --reservation 5c17bfad-d393-4a71-b20b-70762e611683'
+[35m20:44:03.807[0;39m [34mINFO  [XStream-Receive id:61 of Clien]  sc.server.gaming.ReservationManager[0;39m - Reservation 35b6dffb-6269-4772-a297-ecd3d5c25781 was redeemed.
+[35m20:44:03.807[0;39m [34mINFO  [XStream-Receive id:61 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(PAUSED, players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🐇, 🥕, 🧺, 🥕, P2, 🐇, P1, 🐇, 🥗, 🦔, 🥕, 🥕, 🐇, 🦔, P1, P2, 🧺, 🦔, 🥕, 🥕, P2, 🥗, 🦔, 🐇, P2, 🥕, 🥕, 🧺, 🦔, P1, 🥕, 🐇, 🥕, P2, 🐇, 🦔, 🐇, 🥕, P2, 🥕, 🥗, 🦔, 🥕, P2, 🐇, 🧺, 🥕, P1, 🦔, 🐇, 🥕, P2, 🧺, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:44:06.879[0;39m [39mDEBUG      [JavaFX Application Thread]                  sc.gui.view.AppView[0;39m - New Game!
+[35m20:44:06.879[0;39m [39mDEBUG      [JavaFX Application Thread]               sc.gui.model.GameModel[0;39m - Resetting GameModel
+[35m20:44:06.879[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_LOADING -> GAME_CREATION
+[35m20:44:37.332[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m20:44:37.333[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m20:44:37.334[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54488,localport=13050]...
+[35m20:44:37.338[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:44:37.338[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: true, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExecClient@e62d132 on localhost:13050 running 'C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar'), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@7dc9cb13 type Beispiel-Computerspieler on localhost:13050)])
+[35m20:44:37.338[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@5abca1b1 to ReadyQueue.
+[35m20:44:37.338[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:44:37.339[0;39m [34mINFO  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - Toggling PAUSE from false to true for Game(players=[], gameState=GameState(board=Board[▶, 🥕, 🐇, P2, 🥕, P1, 🧺, 🥕, 🐇, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P2, P1, 🧺, 🦔, 🥗, 🥕, 🥕, P2, 🦔, 🥕, 🐇, 🧺, 🥕, P2, 🦔, P2, 🥕, 🐇, P1, 🥕, 🐇, 🦔, 🐇, 🥕, P2, 🥕, 🥗, 🦔, 🧺, P2, P1, 🥕, 🐇, 🥕, 🦔, 🐇, P2, 🥕, 🥕, 🧺, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:44:37.340[0;39m [39mDEBUG [XStream-Receive id:56 of Lobby]  sc.gui.controller.client.ExecClient[0;39m - Starting 'java -jar C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\out\Informatik.jar --host localhost --port 13050 --reservation a073fa4a-a9f0-4a75-af5a-d6b167f9505a'
+[35m20:44:37.345[0;39m [34mINFO  [XStream-Receive id:65 of Clien]  sc.server.gaming.ReservationManager[0;39m - Reservation 168c9099-1da8-49d8-a494-84c4464a02a2 was redeemed.
+[35m20:44:37.345[0;39m [34mINFO  [XStream-Receive id:65 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(PAUSED, players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🐇, P2, 🥕, P1, 🧺, 🥕, 🐇, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P2, P1, 🧺, 🦔, 🥗, 🥕, 🥕, P2, 🦔, 🥕, 🐇, 🧺, 🥕, P2, 🦔, P2, 🥕, 🐇, P1, 🥕, 🐇, 🦔, 🐇, 🥕, P2, 🥕, 🥗, 🦔, 🧺, P2, P1, 🥕, 🐇, 🥕, 🦔, 🐇, P2, 🥕, 🥕, 🧺, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:44:49.228[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54498,localport=13050]...
+[35m20:44:49.232[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@4b64bb74 to ReadyQueue.
+[35m20:44:49.232[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:44:49.232[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:44:49.694[0;39m [31mWARN  [XStream-Receive id:67 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m20:44:49.695[0;39m [34mINFO  [XStream-Receive id:67 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(players=[ONE()], gameState=GameState(board=Board[▶, 🐇, P2, 🥕, P1, 🧺, 🐇, 🥕, 🐇, 🥕, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥗, 🥕, 🦔, 🥕, 🧺, P2, 🥕, 🐇, 🦔, P1, P2, 🥕, 🥕, 🐇, 🐇, 🦔, 🥕, P2, 🥕, 🐇, 🥗, 🦔, P2, 🐇, 🥕, P1, 🧺, 🥕, 🦔, 🥕, 🧺, 🥕, P2, 🐇, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:45:01.162[0;39m [31mWARN  [XStream-Receive id:67 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of com.thoughtworks.xstream.io.StreamException: : Client@4b64bb74
+com.thoughtworks.xstream.io.StreamException: 
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:126)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:148)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:135)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:87)
+	at com.thoughtworks.xstream.XStream$4.readFromStream(XStream.java:2101)
+	at com.thoughtworks.xstream.core.util.CustomObjectInputStream.readObjectOverride(CustomObjectInputStream.java:123)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:519)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:103)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:197)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:190)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read(XmlHeaderAwareReader.java:223)
+	at org.kxml2.io.KXmlParser.peek(Unknown Source)
+	at org.kxml2.io.KXmlParser.peekType(Unknown Source)
+	at org.kxml2.io.KXmlParser.nextImpl(Unknown Source)
+	at org.kxml2.io.KXmlParser.next(Unknown Source)
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:109)
+	... 10 common frames omitted
+[35m20:45:01.165[0;39m [34mINFO  [XStream-Receive id:67 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: Client@4b64bb74
+[35m20:45:01.165[0;39m [34mINFO  [XStream-Receive id:67 of Clien]      sc.server.network.ClientManager[0;39m - Removing client Client@4b64bb74 from client manager
+[35m20:45:01.165[0;39m [34mINFO  [XStream-Receive id:67 of Clien]            sc.server.gaming.GameRoom[0;39m - Removing ONE() from sc.server.gaming.GameRoom@2b7efc1
+[35m20:45:01.166[0;39m [34mINFO  [XStream-Receive id:67 of Clien]   sc.framework.plugins.TwoPlayerGame[0;39m - Stopping Game(players=[ONE()], gameState=GameState(board=Board[▶, 🐇, P2, 🥕, P1, 🧺, 🐇, 🥕, 🐇, 🥕, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥗, 🥕, 🦔, 🥕, 🧺, P2, 🥕, 🐇, 🦔, P1, P2, 🥕, 🥕, 🐇, 🐇, 🦔, 🥕, P2, 🥕, 🐇, 🥗, 🦔, P2, 🐇, 🥕, P1, 🧺, 🥕, 🦔, 🥕, 🧺, 🥕, P2, 🐇, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:45:01.166[0;39m [34mINFO  [XStream-Receive id:67 of Clien]            sc.server.gaming.GameRoom[0;39m - Updating Status to OVER (was: CREATED)
+[35m20:45:01.166[0;39m [34mINFO  [XStream-Receive id:67 of Clien]            sc.server.gaming.GameRoom[0;39m - Game(players=[ONE()], gameState=GameState(board=Board[▶, 🐇, P2, 🥕, P1, 🧺, 🐇, 🥕, 🐇, 🥕, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥗, 🥕, 🦔, 🥕, 🧺, P2, 🥕, 🐇, 🦔, P1, P2, 🥕, 🥕, 🐇, 🐇, 🦔, 🥕, P2, 🥕, 🐇, 🥗, 🦔, P2, 🐇, 🥕, P1, 🧺, 🥕, 🦔, 🥕, 🧺, 🥕, P2, 🐇, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null)) is over (regular=false)
+[35m20:45:01.167[0;39m [31mWARN  [XStream-Receive id:67 of Clien]  sc.networking.clients.XStreamClient[0;39m - Writing on a closed Stream -> dropped the packet (tried to send package of type RoomPacket)
+[35m20:45:01.176[0;39m [31mWARN  [XStream-Receive id:67 of Clien]  sc.networking.clients.XStreamClient[0;39m - Writing on a closed Stream -> dropped the packet (tried to send package of type RemovedFromGame)
+[35m20:45:01.737[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=54513,localport=13050]...
+[35m20:45:01.742[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m20:45:01.742[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@59a8d261 to ReadyQueue.
+[35m20:45:01.742[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m20:45:02.246[0;39m [31mWARN  [XStream-Receive id:68 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m20:45:02.247[0;39m [34mINFO  [XStream-Receive id:68 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(players=[ONE()], gameState=GameState(board=Board[▶, P1, 🥕, 🧺, 🥕, 🥕, P2, 🐇, 🐇, 🐇, 🥗, 🦔, 🐇, 🥕, 🥕, 🦔, P1, P2, 🧺, 🦔, 🥕, 🥗, 🥕, P2, 🦔, 🐇, 🥕, 🥕, 🧺, P2, 🦔, P1, 🥕, 🥕, 🐇, 🐇, P2, 🦔, P2, 🥕, 🐇, 🥕, 🥗, 🦔, 🥕, P2, 🥕, P1, 🧺, 🐇, 🦔, 🥕, P2, 🧺, 🥕, 🐇, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m20:45:12.229[0;39m [39mDEBUG      [JavaFX Application Thread]             sc.gui.util.DesktopUtils[0;39m - Opening C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\log with xdg-open
+[35m20:45:12.231[0;39m [31mWARN       [JavaFX Application Thread]             sc.gui.util.DesktopUtils[0;39m - Failed to open C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\log
+java.io.IOException: Cannot run program "xdg-open": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at sc.gui.util.DesktopUtilsKt.openDesktop(DesktopUtils.kt:29)
+	at sc.gui.util.DesktopUtilsKt.browse(DesktopUtils.kt:18)
+	at sc.gui.view.AppView$root$1$1$1$5.invoke(AppView.kt:56)
+	at sc.gui.view.AppView$root$1$1$1$5.invoke(AppView.kt:55)
+	at tornadofx.ControlsKt$action$4.handle(Controls.kt:439)
+	at tornadofx.ControlsKt$action$4.handle(Controls.kt)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557)
+	at com.sun.glass.ui.View.notifyMouse(View.java:943)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 48 common frames omitted
+[35m20:45:21.685[0;39m [39mDEBUG      [JavaFX Application Thread]                  sc.gui.view.AppView[0;39m - New Game!
+[35m20:45:21.686[0;39m [39mDEBUG      [JavaFX Application Thread]               sc.gui.model.GameModel[0;39m - Resetting GameModel
+[35m20:45:21.686[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_LOADING -> GAME_CREATION
+[35m20:45:23.563[0;39m [39mDEBUG      [JavaFX Application Thread]             sc.gui.util.DesktopUtils[0;39m - Opening C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\log with xdg-open
+[35m20:45:23.564[0;39m [31mWARN       [JavaFX Application Thread]             sc.gui.util.DesktopUtils[0;39m - Failed to open C:\Users\erikd\Desktop\Work\Schule\Informatik\Java\log
+java.io.IOException: Cannot run program "xdg-open": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at sc.gui.util.DesktopUtilsKt.openDesktop(DesktopUtils.kt:29)
+	at sc.gui.util.DesktopUtilsKt.browse(DesktopUtils.kt:18)
+	at sc.gui.view.AppView$root$1$1$1$5.invoke(AppView.kt:56)
+	at sc.gui.view.AppView$root$1$1$1$5.invoke(AppView.kt:55)
+	at tornadofx.ControlsKt$action$4.handle(Controls.kt:439)
+	at tornadofx.ControlsKt$action$4.handle(Controls.kt)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3897)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557)
+	at com.sun.glass.ui.View.notifyMouse(View.java:943)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 48 common frames omitted
+[35m20:45:27.404[0;39m [39mDEBUG      [JavaFX Application Thread]                sc.gui.model.AppModel[0;39m - Saving Preferences
+[35m20:45:27.405[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Shutting down NewClientListener...
+[35m20:45:27.405[0;39m [39mDEBUG      [JavaFX Application Thread]                     sc.gui.ServerApp[0;39m - App stopped, ending program

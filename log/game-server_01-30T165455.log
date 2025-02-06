@@ -1,0 +1,100 @@
+[35m16:54:56.465[0;39m [31mWARN       [JavaFX Application Thread]              sc.server.Configuration[0;39m - Could not find server.properties at C:\Users\erikd\Desktop\Schule\Informatik\server.properties, will use default values!
+[35m16:54:56.473[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Listening on port 13050 for incoming connections.
+[35m16:54:56.474[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - ClientManager running
+[35m16:54:56.591[0;39m [39mDEBUG      [JavaFX Application Thread]            sc.gui.AppStyle$Companion[0;39m - System Font: Font[name=System Regular, family=System, style=Regular, size=12.0]
+[35m16:54:57.123[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_CREATION
+[35m16:54:57.123[0;39m [31mWARN       [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Noop view change request!
+[35m16:55:05.018[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m16:55:05.040[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m16:55:05.051[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=60546,localport=13050]...
+[35m16:55:05.400[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@681642b4 to ReadyQueue.
+[35m16:55:05.400[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m16:55:05.401[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m16:55:05.409[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m16:55:05.410[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=60547,localport=13050]...
+[35m16:55:05.416[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m16:55:05.416[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@4c2b996e to ReadyQueue.
+[35m16:55:05.416[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m16:55:05.418[0;39m [34mINFO  [XStream-Receive id:57 of Clien]             sc.server.network.Client[0;39m - Client authenticated as administrator
+[35m16:55:05.417[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: false, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExternalClient@57095439 on localhost:13050), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@6572aa7 type Mensch on localhost:13050)])
+[35m16:55:05.434[0;39m [31mWARN  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m16:55:05.445[0;39m [34mINFO  [XStream-Receive id:59 of Clien]  sc.server.gaming.ReservationManager[0;39m - Reservation cfbe7c4e-3513-4b37-ac63-ed4eb0ec8b4d was redeemed.
+[35m16:55:05.447[0;39m [34mINFO  [XStream-Receive id:59 of Clien]            sc.server.gaming.GameRoom[0;39m - Game not ready yet: Game(players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m16:55:06.441[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=60552,localport=13050]...
+[35m16:55:06.445[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@ec7a52 to ReadyQueue.
+[35m16:55:06.445[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m16:55:06.445[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m16:55:06.827[0;39m [34mINFO  [XStream-Receive id:60 of Clien]            sc.server.gaming.GameRoom[0;39m - Starting Game(players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null))
+[35m16:55:06.842[0;39m [39mDEBUG      [JavaFX Application Thread]  s.gui.controller.GameFlowController[0;39m - New state: GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=0, players=[Hare(team=ONE, position=0, salads=5, carrots=68, lastAction=null, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=null)
+[35m16:55:06.843[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_LOADING -> GAME
+[35m16:55:06.898[0;39m [34mINFO  [XStream-Receive id:60 of Clien]   sc.framework.plugins.TwoPlayerGame[0;39m - Sending MoveRequest to player ONE(Spieler 1)
+[35m16:55:06.899[0;39m [34mINFO  [XStream-Receive id:60 of Clien]            sc.server.gaming.GameRoom[0;39m - Updating Status to ACTIVE (was: CREATED)
+[35m16:55:06.913[0;39m [34mINFO  [XStream-Receive id:60 of Clien]   sc.framework.plugins.TwoPlayerGame[0;39m - Time needed for move: 15
+[35m16:55:06.913[0;39m [34mINFO                       [Thread-11]   sc.framework.plugins.ActionTimeout[0;39m - HardTimout wasn't reached.
+[35m16:55:06.960[0;39m [34mINFO  [XStream-Receive id:60 of Clien]   sc.framework.plugins.TwoPlayerGame[0;39m - Sending MoveRequest to player TWO(Spieler 2)
+[35m16:55:06.978[0;39m [39mDEBUG      [JavaFX Application Thread]              sc.gui.view.ControlView[0;39m - GameControlState START
+[35m16:55:07.766[0;39m [39mDEBUG      [JavaFX Application Thread]  s.gui.controller.GameFlowController[0;39m - New state: GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=1, players=[Hare(team=ONE, position=10, salads=5, carrots=13, lastAction=Vorwärts um 10, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=Vorwärts um 10)
+[35m16:55:07.771[0;39m [31mWARN  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m16:55:07.877[0;39m [39mDEBUG      [JavaFX Application Thread]              sc.gui.view.ControlView[0;39m - GameControlState PLAYING
+[35m16:55:07.878[0;39m [39mDEBUG      [JavaFX Application Thread]              sc.gui.view.ControlView[0;39m - GameControlState null
+[35m16:55:10.778[0;39m [39mDEBUG      [JavaFX Application Thread]  s.gui.controller.GameFlowController[0;39m - Received StepGame(steps=1)
+[35m16:55:11.600[0;39m [39mDEBUG      [JavaFX Application Thread]                  sc.gui.view.AppView[0;39m - New Game!
+[35m16:55:12.897[0;39m [39mDEBUG      [JavaFX Application Thread]               sc.gui.model.GameModel[0;39m - Resetting GameModel
+[35m16:55:12.897[0;39m [34mINFO  [XStream-Receive id:57 of Clien]   sc.framework.plugins.TwoPlayerGame[0;39m - Stopping Game(players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=1, players=[Hare(team=ONE, position=10, salads=5, carrots=13, lastAction=Vorwärts um 10, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=Vorwärts um 10))
+[35m16:55:12.898[0;39m [39mDEBUG      [JavaFX Application Thread]              sc.gui.view.ControlView[0;39m - GameControlState PLAYING
+[35m16:55:12.898[0;39m [34mINFO  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - Updating Status to OVER (was: ACTIVE)
+[35m16:55:12.898[0;39m [39mDEBUG      [JavaFX Application Thread]              sc.gui.view.ControlView[0;39m - GameControlState null
+[35m16:55:12.898[0;39m [34mINFO  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - Game(players=[ONE(Spieler 1), TWO(Spieler 2)], gameState=GameState(board=Board[▶, 🥕, 🧺, P1, 🥕, 🐇, 🐇, 🥕, P2, 🐇, 🥗, 🦔, 🥕, 🐇, 🥕, 🦔, P1, 🧺, P2, 🦔, P2, 🥕, 🥕, 🥗, 🦔, 🧺, 🥕, 🥕, P2, 🐇, 🦔, 🐇, P2, 🥕, 🥕, 🐇, P1, 🦔, P2, 🥕, 🥕, 🐇, 🥗, 🦔, 🥕, P1, 🥕, P2, 🐇, 🧺, 🦔, 🥕, 🧺, P2, 🐇, 🥕, 🦔, 🥗, 🐇, 🥕, P1, 🥕, 🐇, 🥕, 🏁], turn=1, players=[Hare(team=ONE, position=10, salads=5, carrots=13, lastAction=Vorwärts um 10, cards=[]), Hare(team=TWO, position=0, salads=5, carrots=68, lastAction=null, cards=[])], lastMove=Vorwärts um 10)) is over (regular=true)
+[35m16:55:12.899[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME -> GAME_CREATION
+[35m16:55:12.907[0;39m [34mINFO  [XStream-Receive id:56 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Received game result: GameResult(winner=Spieler 1 ist weiter vorne., scores=[Spieler 1[Siegpunkte=2, Feldnummer=10, Karotten=13], Spieler 2[Siegpunkte=0, Feldnummer=0, Karotten=68]])
+[35m16:55:12.917[0;39m [34mINFO  [XStream-Receive id:56 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Left e8ab62c8-c9cd-4c1f-80fb-821fa9b212c1
+[35m16:55:12.921[0;39m [34mINFO  [XStream-Receive id:60 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnected with RECEIVED_DISCONNECT: Client@ec7a52
+[35m16:55:12.921[0;39m [34mINFO  [XStream-Receive id:60 of Clien]      sc.server.network.ClientManager[0;39m - Removing client Client@ec7a52 from client manager
+[35m16:55:12.921[0;39m [34mINFO  [XStream-Receive id:60 of Clien]            sc.server.gaming.GameRoom[0;39m - Removing ONE(Spieler 1) from sc.server.gaming.GameRoom@57ba2c5b
+[35m16:55:55.142[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m16:55:55.144[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m16:55:55.145[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=60599,localport=13050]...
+[35m16:55:55.149[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m16:55:55.149[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@2e97aa1d to ReadyQueue.
+[35m16:55:55.149[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m16:55:55.149[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: false, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExecClient@56e94c7c on localhost:13050 running 'C:\Users\erikd\Desktop\Schule\Informatik\player-hui-src\src\main\sc\player\util\Starter.java'), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@e339cb4 type Mensch on localhost:13050)])
+[35m16:55:55.154[0;39m [31mWARN  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m16:55:55.156[0;39m [39mDEBUG [XStream-Receive id:56 of Lobby]  sc.gui.controller.client.ExecClient[0;39m - Starting 'C:\Users\erikd\Desktop\Schule\Informatik\player-hui-src\src\main\sc\player\util\Starter.java --host localhost --port 13050 --reservation a056750e-1670-4127-b13a-062e3af97d15'
+[35m16:55:55.168[0;39m [31mWARN  [XStream-Receive id:57 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of java.io.EOFException: Client@681642b4
+java.io.EOFException: null
+	at com.thoughtworks.xstream.XStream$4.readFromStream(XStream.java:2102)
+	at com.thoughtworks.xstream.core.util.CustomObjectInputStream.readObjectOverride(CustomObjectInputStream.java:123)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:519)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:103)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m16:55:55.168[0;39m [31mWARN  [XStream-Receive id:56 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of java.io.IOException: Cannot run program "C:\Users\erikd\Desktop\Schule\Informatik\player-hui-src\src\main\sc\player\util\Starter.java": CreateProcess error=193, %1 is not a valid Win32 application: LobbyClient@792ba5ee
+java.io.IOException: Cannot run program "C:\Users\erikd\Desktop\Schule\Informatik\player-hui-src\src\main\sc\player\util\Starter.java": CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at sc.gui.controller.client.ExecClient.startClient(ExecClient.kt:35)
+	at sc.gui.controller.client.ExecClient.joinGameWithReservation(ExecClient.kt:18)
+	at sc.gui.LobbyManager$accept$1.invoke(LobbyManager.kt:60)
+	at sc.gui.LobbyManager$accept$1.invoke(LobbyManager.kt:52)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.filterInPlace$CollectionsKt__MutableCollectionsKt(MutableCollections.kt:224)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.removeAll(MutableCollections.kt:211)
+	at sc.gui.LobbyManager.accept(LobbyManager.kt:52)
+	at sc.gui.LobbyManager.accept(LobbyManager.kt:37)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:87)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 13 common frames omitted
+[35m16:55:55.170[0;39m [34mINFO  [XStream-Receive id:57 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: Client@681642b4
+[35m16:55:55.170[0;39m [34mINFO  [XStream-Receive id:56 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: LobbyClient@792ba5ee
+[35m16:55:55.170[0;39m [34mINFO  [XStream-Receive id:57 of Clien]      sc.server.network.ClientManager[0;39m - Removing client Client@681642b4 from client manager
+[35m16:55:58.786[0;39m [39mDEBUG      [JavaFX Application Thread]                  sc.gui.view.AppView[0;39m - Quitting!
+[35m16:55:58.787[0;39m [39mDEBUG      [JavaFX Application Thread]                sc.gui.model.AppModel[0;39m - Saving Preferences
+[35m16:55:58.788[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Shutting down NewClientListener...
+[35m16:55:58.788[0;39m [39mDEBUG      [JavaFX Application Thread]                     sc.gui.ServerApp[0;39m - App stopped, ending program

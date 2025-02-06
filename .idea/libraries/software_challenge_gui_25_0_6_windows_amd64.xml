@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="software-challenge-gui-25.0.6-windows-amd64">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/software-challenge-gui-25.0.6-windows-amd64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

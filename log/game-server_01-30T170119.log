@@ -1,0 +1,58 @@
+[35m17:01:19.861[0;39m [31mWARN       [JavaFX Application Thread]              sc.server.Configuration[0;39m - Could not find server.properties at C:\Users\erikd\Desktop\Schule\Informatik\server.properties, will use default values!
+[35m17:01:19.869[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Listening on port 13050 for incoming connections.
+[35m17:01:19.870[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - ClientManager running
+[35m17:01:19.969[0;39m [39mDEBUG      [JavaFX Application Thread]            sc.gui.AppStyle$Companion[0;39m - System Font: Font[name=System Regular, family=System, style=Regular, size=12.0]
+[35m17:01:20.399[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_CREATION
+[35m17:01:20.399[0;39m [31mWARN       [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Noop view change request!
+[35m17:01:56.627[0;39m [39mDEBUG      [JavaFX Application Thread]      sc.gui.controller.AppController[0;39m - Requested View change from GAME_CREATION -> GAME_LOADING
+[35m17:01:56.645[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m17:01:56.653[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=61056,localport=13050]...
+[35m17:01:56.922[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@7e986b74 to ReadyQueue.
+[35m17:01:56.922[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m17:01:56.922[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m17:01:56.928[0;39m [34mINFO       [tornadofx-thread-1-daemon]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m17:01:56.929[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Connecting a Client at Socket[addr=/127.0.0.1,port=61057,localport=13050]...
+[35m17:01:56.933[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegating new client to ClientManager...
+[35m17:01:56.933[0;39m [34mINFO               [NewClientListener]  sc.server.network.NewClientListener[0;39m - Added Client Client@2c6d17fb to ReadyQueue.
+[35m17:01:56.933[0;39m [34mINFO                   [ClientManager]      sc.server.network.ClientManager[0;39m - Delegation done
+[35m17:01:56.936[0;39m [34mINFO  [XStream-Receive id:57 of Clien]             sc.server.network.Client[0;39m - Client authenticated as administrator
+[35m17:01:56.935[0;39m [39mDEBUG      [tornadofx-thread-1-daemon]                  sc.gui.LobbyManager[0;39m - Starting new game (paused: false, players: [Player(name=Spieler 1, client=sc.gui.controller.client.ExecClient@2b442db5 on localhost:13050 running 'C:\Users\erikd\Desktop\Schule\Informatik\out\production\Informatik\sc\player\util\Starter.class'), Player(name=Spieler 2, client=sc.gui.controller.client.GuiClient@66ddf0c9 type Mensch on localhost:13050)])
+[35m17:01:56.951[0;39m [31mWARN  [XStream-Receive id:57 of Clien]            sc.server.gaming.GameRoom[0;39m - PAUSE is already false, dropping request
+[35m17:01:56.963[0;39m [39mDEBUG [XStream-Receive id:56 of Lobby]  sc.gui.controller.client.ExecClient[0;39m - Starting 'C:\Users\erikd\Desktop\Schule\Informatik\out\production\Informatik\sc\player\util\Starter.class --host localhost --port 13050 --reservation a5980f97-1951-404a-87eb-914292198860'
+[35m17:01:56.973[0;39m [31mWARN  [XStream-Receive id:57 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of java.io.EOFException: Client@7e986b74
+java.io.EOFException: null
+	at com.thoughtworks.xstream.XStream$4.readFromStream(XStream.java:2102)
+	at com.thoughtworks.xstream.core.util.CustomObjectInputStream.readObjectOverride(CustomObjectInputStream.java:123)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:519)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:103)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m17:01:56.973[0;39m [31mWARN  [XStream-Receive id:56 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of java.io.IOException: Cannot run program "C:\Users\erikd\Desktop\Schule\Informatik\out\production\Informatik\sc\player\util\Starter.class": CreateProcess error=193, %1 is not a valid Win32 application: LobbyClient@39db91c9
+java.io.IOException: Cannot run program "C:\Users\erikd\Desktop\Schule\Informatik\out\production\Informatik\sc\player\util\Starter.class": CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at sc.gui.controller.client.ExecClient.startClient(ExecClient.kt:35)
+	at sc.gui.controller.client.ExecClient.joinGameWithReservation(ExecClient.kt:18)
+	at sc.gui.LobbyManager$accept$1.invoke(LobbyManager.kt:60)
+	at sc.gui.LobbyManager$accept$1.invoke(LobbyManager.kt:52)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.filterInPlace$CollectionsKt__MutableCollectionsKt(MutableCollections.kt:224)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.removeAll(MutableCollections.kt:211)
+	at sc.gui.LobbyManager.accept(LobbyManager.kt:52)
+	at sc.gui.LobbyManager.accept(LobbyManager.kt:37)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:87)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.io.IOException: CreateProcess error=193, %1 is not a valid Win32 application
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 13 common frames omitted
+[35m17:01:56.975[0;39m [34mINFO  [XStream-Receive id:56 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: LobbyClient@39db91c9
+[35m17:01:56.975[0;39m [34mINFO  [XStream-Receive id:57 of Clien]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: Client@7e986b74
+[35m17:01:56.975[0;39m [34mINFO  [XStream-Receive id:57 of Clien]      sc.server.network.ClientManager[0;39m - Removing client Client@7e986b74 from client manager
+[35m17:05:34.279[0;39m [39mDEBUG      [JavaFX Application Thread]                sc.gui.model.AppModel[0;39m - Saving Preferences
+[35m17:05:34.282[0;39m [34mINFO       [JavaFX Application Thread]  sc.server.network.NewClientListener[0;39m - Shutting down NewClientListener...
+[35m17:05:34.282[0;39m [39mDEBUG      [JavaFX Application Thread]                     sc.gui.ServerApp[0;39m - App stopped, ending program

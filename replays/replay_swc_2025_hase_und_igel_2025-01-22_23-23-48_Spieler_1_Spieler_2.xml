@@ -1,0 +1,123 @@
+<protocol>
+<room roomId="6fbff685-4c81-46b6-afcf-9482a389595b">
+  <data class="memento">
+    <state class="state" startTeam="ONE" turn="0">
+      <board>
+        <field>START</field>
+        <field>HARE</field>
+        <field>CARROTS</field>
+        <field>MARKET</field>
+        <field>HARE</field>
+        <field>HARE</field>
+        <field>CARROTS</field>
+        <field>POSITION_1</field>
+        <field>POSITION_2</field>
+        <field>CARROTS</field>
+        <field>SALAD</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>HARE</field>
+        <field>CARROTS</field>
+        <field>HEDGEHOG</field>
+        <field>POSITION_1</field>
+        <field>POSITION_2</field>
+        <field>MARKET</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>CARROTS</field>
+        <field>POSITION_2</field>
+        <field>SALAD</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>HARE</field>
+        <field>MARKET</field>
+        <field>POSITION_2</field>
+        <field>CARROTS</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>POSITION_2</field>
+        <field>CARROTS</field>
+        <field>HARE</field>
+        <field>POSITION_1</field>
+        <field>HARE</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>CARROTS</field>
+        <field>POSITION_2</field>
+        <field>HARE</field>
+        <field>SALAD</field>
+        <field>HEDGEHOG</field>
+        <field>CARROTS</field>
+        <field>POSITION_1</field>
+        <field>CARROTS</field>
+        <field>POSITION_2</field>
+        <field>MARKET</field>
+        <field>HARE</field>
+        <field>HEDGEHOG</field>
+        <field>MARKET</field>
+        <field>POSITION_2</field>
+        <field>CARROTS</field>
+        <field>CARROTS</field>
+        <field>HARE</field>
+        <field>HEDGEHOG</field>
+        <field>SALAD</field>
+        <field>HARE</field>
+        <field>CARROTS</field>
+        <field>POSITION_1</field>
+        <field>CARROTS</field>
+        <field>HARE</field>
+        <field>CARROTS</field>
+        <field>GOAL</field>
+      </board>
+      <hare team="ONE" position="0" salads="5" carrots="68">
+        <cards/>
+      </hare>
+      <hare team="TWO" position="0" salads="5" carrots="68">
+        <cards/>
+      </hare>
+    </state>
+  </data>
+</room>
+<room roomId="6fbff685-4c81-46b6-afcf-9482a389595b">
+  <data class="error" message="Ungueltiger Zug von &apos;Spieler 1&apos;.&#xa;InvalidMoveException(mistake=CANNOT_FALL_BACK, move=Zurückfallen)">
+    <originalMessage class="fallback"/>
+  </data>
+</room>
+<room roomId="6fbff685-4c81-46b6-afcf-9482a389595b">
+  <data class="result">
+    <definition>
+      <fragment name="Siegpunkte">
+        <aggregation>SUM</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Feldnummer">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Karotten">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+    </definition>
+    <scores>
+      <entry>
+        <player name="Spieler 1" team="ONE"/>
+        <score>
+          <part>0</part>
+          <part>0</part>
+          <part>0</part>
+        </score>
+      </entry>
+      <entry>
+        <player name="Spieler 2" team="TWO"/>
+        <score>
+          <part>2</part>
+          <part>0</part>
+          <part>68</part>
+        </score>
+      </entry>
+    </scores>
+    <winner team="TWO" regular="false" reason="Regelverletzung von Spieler 1: Rückwärtszug ist nicht möglich bei &apos;Zurückfallen&apos;"/>
+  </data>
+</room>
+</protocol>
