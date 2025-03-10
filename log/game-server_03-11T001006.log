@@ -1,0 +1,35 @@
+[35m00:10:06.294[0;39m [34mINFO                            [main]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m00:10:11.335[0;39m [31mWARN  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with LOST_CONNECTION because of com.thoughtworks.xstream.io.StreamException: : LobbyClient@5b3f61ff
+com.thoughtworks.xstream.io.StreamException: 
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:126)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:148)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:135)
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:87)
+	at com.thoughtworks.xstream.XStream$4.readFromStream(XStream.java:2101)
+	at com.thoughtworks.xstream.core.util.CustomObjectInputStream.readObjectOverride(CustomObjectInputStream.java:123)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:519)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:103)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at java.base/java.io.PushbackInputStream.read(PushbackInputStream.java:197)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:190)
+	at com.thoughtworks.xstream.core.util.XmlHeaderAwareReader.read(XmlHeaderAwareReader.java:223)
+	at org.kxml2.io.KXmlParser.peek(Unknown Source)
+	at org.kxml2.io.KXmlParser.peekType(Unknown Source)
+	at org.kxml2.io.KXmlParser.nextImpl(Unknown Source)
+	at org.kxml2.io.KXmlParser.next(Unknown Source)
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:109)
+	... 10 common frames omitted
+[35m00:10:11.338[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with LOST_CONNECTION: LobbyClient@5b3f61ff

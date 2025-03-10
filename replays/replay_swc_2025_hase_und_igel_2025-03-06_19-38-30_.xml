@@ -1,0 +1,31 @@
+<protocol>
+<room roomId="08268eec-4f11-4b7d-b0bf-44cad9e54fd9">
+  <data class="result">
+    <definition>
+      <fragment name="Siegpunkte">
+        <aggregation>SUM</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Feldnummer">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+      <fragment name="Karotten">
+        <aggregation>AVERAGE</aggregation>
+        <relevantForRanking>true</relevantForRanking>
+      </fragment>
+    </definition>
+    <scores>
+      <entry>
+        <player team="ONE"/>
+        <score>
+          <part>0</part>
+          <part>0</part>
+          <part>0</part>
+        </score>
+      </entry>
+    </scores>
+    <winner regular="false" reason="Alle Spieler hat das Spiel verlassen: LOST_CONNECTION"/>
+  </data>
+</room>
+</protocol>

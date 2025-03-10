@@ -1,0 +1,30 @@
+[35m00:10:27.978[0;39m [34mINFO                            [main]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m00:10:30.751[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 0 Dran: ONE
+[35m00:10:30.796[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 1 Dran: TWO
+[35m00:10:30.819[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m00:10:30.830[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 1 mit Karten [Salat fressen] nach 11ms.
+[35m00:10:30.856[0;39m [1;31mERROR [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Unknown Communication Error
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at sc.player.RateField.GetFieldRating(RateField.java:71)
+	at sc.player.Calculations.GetBestMove(Calculations.java:41)
+	at sc.player.Logic.calculateMove(Logic.java:58)
+	at sc.player.Logic.calculateMove(Logic.java:28)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:31)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:24)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:94)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m00:10:30.858[0;39m [31mWARN  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with UNKNOWN because of java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null: LobbyClient@11bb571c
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at sc.player.RateField.GetFieldRating(RateField.java:71)
+	at sc.player.Calculations.GetBestMove(Calculations.java:41)
+	at sc.player.Logic.calculateMove(Logic.java:58)
+	at sc.player.Logic.calculateMove(Logic.java:28)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:31)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:24)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:94)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m00:10:30.858[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with UNKNOWN: LobbyClient@11bb571c

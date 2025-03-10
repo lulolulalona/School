@@ -1,0 +1,128 @@
+[35m23:58:16.879[0;39m [34mINFO                            [main]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m23:58:18.953[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 0 Dran: ONE
+[35m23:58:19.058[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 1 Dran: TWO
+[35m23:58:19.109[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.120[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 1 nach 11ms.
+[35m23:58:19.190[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 2 Dran: ONE
+[35m23:58:19.264[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 3 Dran: TWO
+[35m23:58:19.328[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.328[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 8 nach 0ms.
+[35m23:58:19.335[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 4 Dran: ONE
+[35m23:58:19.405[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 5 Dran: TWO
+[35m23:58:19.467[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.468[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 6 nach 1ms.
+[35m23:58:19.504[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 6 Dran: ONE
+[35m23:58:19.561[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 7 Dran: TWO
+[35m23:58:19.619[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.619[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 4 nach 0ms.
+[35m23:58:19.644[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 8 Dran: ONE
+[35m23:58:19.717[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 9 Dran: TWO
+[35m23:58:19.776[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.777[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 12 mit Karten [Salat fressen] nach 1ms.
+[35m23:58:19.781[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 10 Dran: ONE
+[35m23:58:19.849[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 11 Dran: TWO
+[35m23:58:19.915[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:19.916[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 2 nach 1ms.
+[35m23:58:19.949[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 12 Dran: ONE
+[35m23:58:20.018[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 13 Dran: TWO
+[35m23:58:20.079[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.079[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 8 mit Karten [Zurückfallen] nach 0ms.
+[35m23:58:20.111[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 14 Dran: ONE
+[35m23:58:20.184[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 15 Dran: TWO
+[35m23:58:20.249[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.249[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 4 nach 0ms.
+[35m23:58:20.256[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 16 Dran: ONE
+[35m23:58:20.330[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 17 Dran: TWO
+[35m23:58:20.403[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.403[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Salat fressen nach 0ms.
+[35m23:58:20.414[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 18 Dran: ONE
+[35m23:58:20.478[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 19 Dran: TWO
+[35m23:58:20.545[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.546[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 6 mit Karten [Salat fressen] nach 1ms.
+[35m23:58:20.552[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 20 Dran: ONE
+[35m23:58:20.620[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 21 Dran: TWO
+[35m23:58:20.684[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.684[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 8 nach 0ms.
+[35m23:58:20.701[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 22 Dran: ONE
+[35m23:58:20.764[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 23 Dran: TWO
+[35m23:58:20.830[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.831[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 7 nach 0ms.
+[35m23:58:20.844[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 24 Dran: ONE
+[35m23:58:20.912[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 25 Dran: TWO
+[35m23:58:20.970[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:20.970[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Zurückfallen nach 0ms.
+[35m23:58:20.973[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 26 Dran: ONE
+[35m23:58:21.038[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 27 Dran: TWO
+[35m23:58:21.100[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.100[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 3 nach 0ms.
+[35m23:58:21.113[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 28 Dran: ONE
+[35m23:58:21.173[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 29 Dran: TWO
+[35m23:58:21.237[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.238[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 4 nach 1ms.
+[35m23:58:21.261[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 30 Dran: ONE
+[35m23:58:21.327[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 31 Dran: TWO
+[35m23:58:21.386[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.386[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 5 mit Karten [Karotten tauschen] nach 0ms.
+[35m23:58:21.390[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 32 Dran: ONE
+[35m23:58:21.458[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 33 Dran: TWO
+[35m23:58:21.520[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.520[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Zurückfallen nach 0ms.
+[35m23:58:21.537[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 34 Dran: ONE
+[35m23:58:21.598[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 35 Dran: TWO
+[35m23:58:21.663[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.663[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Salat fressen nach 0ms.
+[35m23:58:21.665[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 36 Dran: ONE
+[35m23:58:21.730[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 37 Dran: TWO
+[35m23:58:21.792[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.793[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 9 nach 1ms.
+[35m23:58:21.803[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 38 Dran: ONE
+[35m23:58:21.870[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 39 Dran: TWO
+[35m23:58:21.934[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:21.934[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 2 mit Karten [Vorrücken] nach 0ms.
+[35m23:58:21.948[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 40 Dran: ONE
+[35m23:58:22.013[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 41 Dran: TWO
+[35m23:58:22.080[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.080[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 11 nach 0ms.
+[35m23:58:22.090[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 42 Dran: ONE
+[35m23:58:22.162[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 43 Dran: TWO
+[35m23:58:22.224[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.225[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 9 nach 1ms.
+[35m23:58:22.239[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 44 Dran: ONE
+[35m23:58:22.305[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 45 Dran: TWO
+[35m23:58:22.371[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.372[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Zurückfallen nach 1ms.
+[35m23:58:22.379[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 46 Dran: ONE
+[35m23:58:22.441[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 47 Dran: TWO
+[35m23:58:22.503[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.503[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 11 nach 0ms.
+[35m23:58:22.513[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 48 Dran: ONE
+[35m23:58:22.578[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 49 Dran: TWO
+[35m23:58:22.637[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.637[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 2 nach 0ms.
+[35m23:58:22.647[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 50 Dran: ONE
+[35m23:58:22.715[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 51 Dran: TWO
+[35m23:58:22.777[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.777[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 17 nach 0ms.
+[35m23:58:22.793[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 52 Dran: ONE
+[35m23:58:22.855[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 53 Dran: TWO
+[35m23:58:22.917[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:22.917[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 7 nach 0ms.
+[35m23:58:22.930[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 54 Dran: ONE
+[35m23:58:22.997[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 55 Dran: TWO
+[35m23:58:23.065[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:23.065[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 14 nach 0ms.
+[35m23:58:23.076[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 56 Dran: ONE
+[35m23:58:23.144[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 57 Dran: TWO
+[35m23:58:23.206[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:23.207[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 5 nach 1ms.
+[35m23:58:23.218[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 58 Dran: ONE
+[35m23:58:23.282[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 59 Dran: TWO
+[35m23:58:23.345[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:58:23.345[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 5 nach 0ms.
+[35m23:58:23.360[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 60 Dran: ONE
+[35m23:58:23.419[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Das Spiel ist beendet, Ergebnis: GameResult(winner=Spieler 1 ist weiter vorne., scores=[Spieler 1[Siegpunkte=2, Feldnummer=63, Karotten=72], Spieler 2[Siegpunkte=0, Feldnummer=39, Karotten=191]])
+[35m23:58:23.419[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Received game result: GameResult(winner=Spieler 1 ist weiter vorne., scores=[Spieler 1[Siegpunkte=2, Feldnummer=63, Karotten=72], Spieler 2[Siegpunkte=0, Feldnummer=39, Karotten=191]])
+[35m23:58:23.420[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Left ff8ca3ad-1ac3-4e6f-82fe-6888408e5e32
+[35m23:58:23.421[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Stopping XStream-Receive id:42 of LobbyClient@5b3f61ff
+[35m23:58:23.421[0;39m [31mWARN  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - ReceiveThread is stopping itself
+[35m23:58:23.421[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with INITIATED_DISCONNECT: LobbyClient@5b3f61ff

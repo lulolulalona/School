@@ -1,0 +1,62 @@
+[35m23:57:19.297[0;39m [34mINFO                            [main]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m23:57:21.474[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 0 Dran: ONE
+[35m23:57:21.564[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 1 Dran: TWO
+[35m23:57:21.615[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:21.625[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 6 nach 10ms.
+[35m23:57:21.694[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 2 Dran: ONE
+[35m23:57:21.763[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 3 Dran: TWO
+[35m23:57:21.818[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:21.819[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 3 mit Karten [Salat fressen] nach 0ms.
+[35m23:57:21.827[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 4 Dran: ONE
+[35m23:57:21.896[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 5 Dran: TWO
+[35m23:57:21.954[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:21.954[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 4 nach 0ms.
+[35m23:57:21.981[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 6 Dran: ONE
+[35m23:57:22.041[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 7 Dran: TWO
+[35m23:57:22.102[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.102[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 8 nach 0ms.
+[35m23:57:22.118[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 8 Dran: ONE
+[35m23:57:22.187[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 9 Dran: TWO
+[35m23:57:22.244[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.244[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 7 nach 0ms.
+[35m23:57:22.264[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 10 Dran: ONE
+[35m23:57:22.326[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 11 Dran: TWO
+[35m23:57:22.389[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.389[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 10 nach 0ms.
+[35m23:57:22.397[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 12 Dran: ONE
+[35m23:57:22.464[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 13 Dran: TWO
+[35m23:57:22.527[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.527[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Karottenvorrat um -10 aendern nach 0ms.
+[35m23:57:22.544[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 14 Dran: ONE
+[35m23:57:22.617[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 15 Dran: TWO
+[35m23:57:22.678[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.679[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 7 mit Karten [Zurückfallen] nach 1ms.
+[35m23:57:22.743[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 16 Dran: ONE
+[35m23:57:22.801[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 17 Dran: TWO
+[35m23:57:22.869[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m23:57:22.869[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Salat fressen nach 0ms.
+[35m23:57:22.869[0;39m [1;31mERROR [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Unknown Communication Error
+java.util.NoSuchElementException: null
+	at java.base/java.util.List.getFirst(List.java:823)
+	at sc.player.Calculations.GetBestMove(Calculations.java:59)
+	at sc.player.Logic.calculateMove(Logic.java:58)
+	at sc.player.Logic.calculateMove(Logic.java:28)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:31)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:24)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:94)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m23:57:22.875[0;39m [31mWARN  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnecting with UNKNOWN because of java.util.NoSuchElementException: LobbyClient@5b3f61ff
+java.util.NoSuchElementException: null
+	at java.base/java.util.List.getFirst(List.java:823)
+	at sc.player.Calculations.GetBestMove(Calculations.java:59)
+	at sc.player.Logic.calculateMove(Logic.java:58)
+	at sc.player.Logic.calculateMove(Logic.java:28)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:31)
+	at sc.player.PlayerClient.apply(PlayerClient.kt:24)
+	at sc.networking.clients.LobbyClient.onObject(LobbyClient.java:94)
+	at sc.networking.clients.XStreamClient.receiveThread(XStreamClient.java:115)
+	at sc.networking.clients.XStreamClient$1.run(XStreamClient.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+[35m23:57:22.875[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with UNKNOWN: LobbyClient@5b3f61ff

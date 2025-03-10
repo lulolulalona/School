@@ -1,0 +1,11 @@
+[35m00:11:42.038[0;39m [34mINFO                            [main]  sc.networking.clients.XStreamClient[0;39m - Creating TCP Network for localhost:13050
+[35m00:11:44.040[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 0 Dran: ONE
+[35m00:11:44.074[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Zug: 1 Dran: TWO
+[35m00:11:44.083[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Es wurde ein Zug von TWO angefordert.
+[35m00:11:44.092[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Sende Vorwärts um 3 nach 9ms.
+[35m00:11:47.774[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]                      sc.player.Logic[0;39m - Das Spiel ist beendet, Ergebnis: GameResult(winner=Spieler 2 hat fuer die Antwort auf die Zugaufforderung laenger als 2 Sekunden gebraucht., scores=[Spieler 1[Siegpunkte=2, Feldnummer=2, Karotten=55], Spieler 2[Siegpunkte=0, Feldnummer=0, Karotten=0]])
+[35m00:11:47.775[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Received game result: GameResult(winner=Spieler 2 hat fuer die Antwort auf die Zugaufforderung laenger als 2 Sekunden gebraucht., scores=[Spieler 1[Siegpunkte=2, Feldnummer=2, Karotten=55], Spieler 2[Siegpunkte=0, Feldnummer=0, Karotten=0]])
+[35m00:11:47.775[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]    sc.networking.clients.LobbyClient[0;39m - Left ae30b8d9-d7dc-4b61-8999-961f414f2763
+[35m00:11:47.776[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Stopping XStream-Receive id:42 of LobbyClient@5b3f61ff
+[35m00:11:47.776[0;39m [31mWARN  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - ReceiveThread is stopping itself
+[35m00:11:47.776[0;39m [34mINFO  [XStream-Receive id:42 of Lobby]  sc.networking.clients.XStreamClient[0;39m - Disconnected with INITIATED_DISCONNECT: LobbyClient@5b3f61ff
